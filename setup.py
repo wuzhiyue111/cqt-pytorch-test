@@ -15,6 +15,10 @@ setup(
         "torch>=1.6",
         "data-science-types>=0.2",
         "einops>=0.4",
+        "torchaudio",
+        "torchmetrics",
+        "pesq",
+        "pystoi",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
